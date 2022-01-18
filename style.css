@@ -13,3 +13,27 @@ header{
     height: 100%;
 }
 
+i{
+    width: 20px;
+    height: 1px;
+    background-color: #A5CD07;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -webkit-transition: all ease-out 0,3s;
+
+
+}
+.menu{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    background-color: #D7D7D7;
+    border-radius: 50px;
+    cursor:pointer;
+    z-index: 3;
+    top: 20px;
+    left: 23px;
+    -webkit-transition: all ease-out 0,3s;
+}
+
