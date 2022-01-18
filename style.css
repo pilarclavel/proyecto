@@ -1,0 +1,15 @@
+.imagen1{
+    width: 100%;
+    height: auto;
+    background-image: url(img/principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+ /* esto no m esirve de nada*/
+header{
+    width: 100%;
+    height: 100%;
+}
+
