@@ -15,17 +15,22 @@
     <main>
         <nav>
             <header>
-                <h1> AQUÍ TIENE QUE IR EL LOGO</h1>
-                <div class="imagen1">
+                <section id="inicio">
+                <img src="img/LOGO.png" alt="LOGO" id=LOGO>
+               
+               
+                <div class="imagen1" id="frase">
                     
-                    <img src="img/principal.png" alt="Foto de Pilar Clavel">
+                  
                    
-                    <p class="bloqcuote">
+                   
+                    <div class="bloqcuote">
                         <q>
                             La clave de la vida consiste en descubrir aquellas cosas que deconocemos y adaprtarse al cambio es la mejor herramienta </q>
-                    </p>
+                    </div>
+                       
                     <p>CONÓCEME</p>
-
+                   
                     <div class="redes">
                         <a href="https://www.instagram.com/?hl=es"></a> 
                         <img src="" alt="Instagram">
@@ -38,19 +43,28 @@
 
                         <a href="https://www.linkedin.com/"></a>
                         <img src="" alt="Linkedin">
-
+                    </section>
                     </div>
                 </div>
             </header>
 
+            <ul id="navScroll">
+                <i></i>
+                <li class="nav-main" data-section="inicio"><em style="height: 148.628%;"></em><span>01</span><a href="#inicio"><strong> Inicio</strong></a></li>
+                <li class="nav-main" data-section="sobre-mi"><em style="height: 189.816%;"></em><span>02</span><a href="#sobre-mi"><strong>Sobre mi</strong></a></li>
+                <li class="nav-main" data-section="propositos"><em style="height: 115.882%;"></em><span>03</span><a href="#propositos"><strong>Propósitos</strong></a></li>
+                <li class="nav-main active" data-section="fortalezas"><em style="height: 78.4084%;"></em><span>04</span><a href="#fortalezas"><strong>Fortalezas</strong></a></li>
+                <li class="nav-main" data-section="contacta"><em style="height: 21.2081%;"></em><span>05</span><a href="#contacto"><strong>Contacto</strong></a></li>
+              </ul>
             <article class="quiensoy">
-                <h2>SOBRE MÍ</h2>
+                <section id="sobre-mi"><h2>SOBRE MÍ</h2>
                 <hr>
                 <br>
                 <p>Si tuviera que destacar una característicaa que me define a la perfección,sería sin duda alguna la capacidad de adaptación a diferentes situaciones.Esto me ha permitido forjar una personalidad variopinta y extravagante, que combina un poco de todos los diferentes ambientes que he tenido la oportunidad de conocer. Por si no lo habísis notado, me gusta el cambio, por lo que siempre estoy abierta a concocer y aprender cosas nuevas que me hagan crecer tanto personal, como profesionalemnte</p>
                 <p>Desde pequeña me he sentido muy atarída por el mundo de la moda, lo que hizo que comenzase mi vida universitaria como estudiante de Diseño de Moda. Sin embargo, y no pudiendo ser de otra manera, la vida me sorprendió dando un giro de 180º a mi mentalidad, que me hizo descubrir que quería pasar el resto de mi vida haciendo algo que realmente me apasionaba. Por ello, me especialicé como publicista y gracias a ese cambio descubrí que mi pasión se puede hacer realidad: estar en contacto con las personas, pero esta vez, a través de una pantalla.</p>
                 <p>Esto me ha permitido poder describirme así: Soy Pilar, publicista amante del cambio.</p>
                 <hr>
+            </section>
             </article>
 
             <section>
@@ -67,7 +81,9 @@
 
     
         <article class="propositos">
+            <section id="propositos">
             <h2>PROPÓSITO</h2>
+          
                 <hr>
                 <br>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -76,7 +92,7 @@
         </article>
 
         <section>
-
+            <section id="fortalezas">
             <p class="numeros">22 </p>
             <aside>búsquedas en el móvil</aside>
 
@@ -98,11 +114,12 @@
         <footer>
             <header>
                 <hr>
+                <section id="contacto">
                 <h2>CONTACTO</h2>
                 <p class="parrafofinal">No tengas verguenza, ¡conozcámonos!</p>
             </header>
 
-            <form action="Formulario contacto">
+            <form class="formulario" action="Formulario contacto">
                 <label for="Nombre"></label>
                 <span>Nombre</span>
                 <input type="text" id="Nombre" required>
@@ -121,7 +138,7 @@
 
                 <input type="submit" value="Enviar">
             </form>
-
+        </section>
         </footer>
     </main>
 </body>
