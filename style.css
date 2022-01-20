@@ -8,7 +8,8 @@
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 0px;
-    width: 282px;}
+    width: 282px;
+    height: auto;}
 
 h2{
         font-family: Verdana, Geneva, Tahoma, sans-serif /*cambiar a Lexend Zetta*/
@@ -64,6 +65,8 @@ p, aside{
 
 .propositos{
     background-color: #DFEAB3;  
+    margin-top: 40px;
+    height: 693px;
 }
 
 .numeros{
@@ -80,3 +83,28 @@ form.formulario{    background: 0;
     border-bottom-width: 1px !important;
     border-bottom-style: solid !important;
     border-bottom-color: rgb(192, 51, 51) !important;}
+    img {
+        /* Para que sea responsiva */
+        width: 884px;
+        object-fit:cover;
+        height: 409px;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      .columna {
+        float: left;
+        width: 50%;
+        padding-right: 5px;
+        padding-top: 50px;
+        padding-bottom: 8px;
+      }
+      
+      .fila::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      p{padding-left: 614px;
+        padding-right: 614px;}
