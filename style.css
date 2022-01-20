@@ -1,110 +1,163 @@
+.navbar{
+    margin: 0 !important;
+   
+   
+}
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: inline !important;
+}
+header{
+    height: 100vh;
+}
 #inicio{
     background-image: url(img/principal.png);
     background-repeat: no-repeat ;
     background-size: cover;
+    height: 100% !important;
 }
-#frase{block-size: 549px;}
+#logo-div{
+    padding-left: 20%;
+}
+
+#frase{
+    padding-left: 20%;
+    max-width: 65%;
+}
 #LOGO  {    
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 0px;
     width: 282px;
-    height: auto;}
-
-h2{
-        font-family: Verdana, Geneva, Tahoma, sans-serif /*cambiar a Lexend Zetta*/
+    height: auto;
+    text-align: center;
 }
-
-p, aside{
-    font-family: sans-serif;
-    font-size: 15px;
+.img-fluid{
+    height: 100% !important;
 }
-#navScroll {
-    height: calc(100% - 74px);
+#redes{
     position: fixed;
-    color: #FFF;
-    z-index: 98;
-    top: 74px;}
-    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;}
-        ul {
-            display: block;
-            list-style-type: disc;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            padding-inline-start: 40px;
-        }
-        #navScroll li {
-            max-height: 150px;
-            min-height: 50px;
-            position: relative;
-            padding-left: 50px;
-            margin-top: 15px;
-            height: 17%;
-        }
-        li {
-            display: list-item;
-            text-align: -webkit-match-parent;}
-.bloqcuote{
-    font-size: large;
-    font-family: monospace;
-    padding-left: 138px;
-    padding-right: 183px;
+    right: 0;
+    top: 50%;
+    right: 20px;
 }
-.quiensoy{
-    background-color: white;
+.sobre-mi{
+    width: fit-content;
+    border-bottom: 5px solid #a5cd07;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
-
-.propositos{
-    background-color: #DFEAB3;  
-    margin-top: 40px;
-    height: 693px;
+.row{
+    margin-bottom: 10px;
 }
-
-.numeros{
-    font-size: 55px;
-    font-family: monospace; /*cambiar a Alfa Slab One*/
+.col-sm{
+    margin-bottom: 10px;
 }
-body{text-align: center;}
- 
-form.formulario{    background: 0;
+#sobre-mi-p{
+    padding-left: 6.4em;
+    padding-right: 6.4em;
+}
+#conoceme {
+    margin-top: 150px;
+    border-left: 3px solid green;
+    padding-left: 37px;
+    text-transform: uppercase;
+}
+#texto-principal{
+    font-size: 25px;
+}
+#propositos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #a5cd076b;
+}
+#numeros{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#numeros h1{
+    color: #a5cd07;
+    font-weight: bold;
+    font-size: 80px;
+}
+#numeros p{
+    font-weight: bold;
+    font-size: 25px;
+}
+#numeros .col-sm{
+    text-align: center;
+}
+#formulario{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #3a3a3a;
+    color: white;
+}
+#formulario input, #formulario textarea {
+    display: block;
+    width: 100%;
+    background: #ff000000;
     border: 0;
-    border-radius: 0;
-    border-bottom: 1px solid;
-    height: 30px;
-    border-bottom-width: 1px !important;
-    border-bottom-style: solid !important;
-    border-bottom-color: rgb(192, 51, 51) !important;}
-    img {
-        /* Para que sea responsiva */
-        width: 884px;
-        object-fit:cover;
-        height: 409px;
-      }
-      
-      * {
-        box-sizing: border-box;
-      }
-      .columna {
-        float: left;
-        width: 50%;
-        padding-right: 5px;
-        padding-top: 50px;
-        padding-bottom: 8px;
-      }
-      
-      .fila::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-      p{padding-left: 614px;
-        padding-right: 614px;}
+    border-bottom: 0.1px solid white;
+}
+#formulario button{
+    background: #ff000000;
+    color: #a5cd07;
+    border: 1px solid #a5cd07;
+    font-size: 20px;
+    border-radius: 47px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#contactame{
+    vertical-align: middle;
+    height: 40px;
+    margin-top: 30%;
+    border-top: 1px solid;
+    padding-top: 20px;
+    width: fit-content;
+}
+.card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px;
+    border: 0 !important;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card img, .card-img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    top:0;left:0;right:0;
+}
+
+.card-img-overlay {
+    transform: rotateY(180deg);
+    background:#a5cd07;
+    color:white;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.card-img-overlay h1{
+    display: table-cell;
+    vertical-align: middle;
+}
