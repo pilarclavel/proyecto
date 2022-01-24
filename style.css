@@ -1,39 +1,33 @@
-.navbar{
-    margin: 0 !important;
-   
-   
-}
-.navbar-brand img{
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    display: inline !important;
-}
+
 header{
     height: 100vh;
 }
 #inicio{
-    background-image: url(img/principal.png);
+    background-image: url(img/FOTO\ BUENA\ ABOUT\ ME.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
     height: 100% !important;
 }
 #logo-div{
-    padding-left: 20%;
+    padding-left: 15%;
+    
 }
 
 #frase{
-    padding-left: 20%;
+    padding-left: 15%;
     max-width: 65%;
 }
-#LOGO  {    
-    padding-top: 80px;
-    padding-bottom: 80px;
+#LOGO  {  
+   
+    padding-top: 110px;
+    padding-bottom: 140px;
     padding-left: 0px;
     width: 282px;
     height: auto;
     text-align: center;
 }
+
+
 .img-fluid{
     height: 100% !important;
 }
@@ -41,8 +35,13 @@ header{
     position: fixed;
     right: 0;
     top: 50%;
-    right: 20px;
+    right: 30px;  
 }
+
+.logo-redes{
+    margin-bottom: 6px;
+}
+
 .sobre-mi{
     width: fit-content;
     border-bottom: 5px solid #a5cd07;
@@ -62,7 +61,7 @@ header{
 }
 #conoceme {
     margin-top: 150px;
-    border-left: 3px solid green;
+    border-left: 3px solid #a5cd07;;
     padding-left: 37px;
     text-transform: uppercase;
 }
@@ -116,10 +115,12 @@ header{
     vertical-align: middle;
     height: 40px;
     margin-top: 30%;
-    border-top: 1px solid;
+    border-top: 5px solid #a5cd07;
     padding-top: 20px;
-    width: fit-content;
+    width: fit-content;  
 }
+
+
 .card {
     background-color: transparent;
     width: 100%;
@@ -156,6 +157,7 @@ header{
     text-align: center;
     display: table;
     width: 100%;
+    
 }
 .card-img-overlay h1{
     display: table-cell;
