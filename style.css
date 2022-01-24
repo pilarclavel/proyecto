@@ -46,6 +46,7 @@ header{
 
 .about-me{
     height: 100vh;
+   
 }
 
 .sobre-mi{
@@ -54,8 +55,25 @@ header{
     margin: auto;
     margin-top: 60px;
     margin-bottom: 80px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
     
+}
+
+.parrafo{
+    margin-left: 40%;
+    margin-right: 20%;
+}
+.last-p{
+    border-bottom: 3px solid #a5cd07;
+    width: fit-content;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+#silueta{
+   margin-left: 50%;
+    width: 40px;
+   
     
 }
 
@@ -67,14 +85,13 @@ header{
 }
 
 #sobre-mi-p{
-    padding-left: 10em;
+    
+    padding-left: 6.4em;
     padding-right: 6.4em;
+    text-align: center;
+
 }
 
-.last-p{
-    border-bottom: 3px solid #a5cd07;
-    width: fit-content;
-}
 
 #conoceme {
     margin-top: 150px;
