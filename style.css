@@ -1,10 +1,9 @@
 
-
-
 header{
     height: 100vh;
 }
 
+/*1er DIV - LANDING*/
 #inicio{
     background-image: url(img/FOTO\ BUENA\ ABOUT\ ME.jpg);
     background-repeat: no-repeat ;
@@ -17,24 +16,21 @@ header{
     padding-left: 15%; 
 }
 
-#frase{
-    padding-left: 15%;
-    max-width: 65%;
-}
-
 #LOGO  {  
     padding-top: 110px;
     padding-bottom: 100px;
-    padding-left: 0px;
+    padding-left: 0PX;
     width: 282px;
     height: auto;
     text-align: center;
 }
 
 
-.img-fluid{
-    height: 100% !important;
+#frase{
+    padding-left: 15%;
+    max-width: 65%;
 }
+
 
 #redes{
     position: fixed;
@@ -43,17 +39,12 @@ header{
     right: 30px;  
 }
 
-.logo-redes{
-    margin-bottom: 6px;
-}
-#imagenes img {
-    object-fit: cover;
-}
-
+/*2o DIV - SOBRE MI*/
 .about-me{
     height: 100vh;  
 }
 
+/*H1 SOBRE MÍ*/
 .sobre-mi{
     width: fit-content;
     border-bottom: 5px solid #a5cd07;
@@ -65,41 +56,28 @@ header{
     letter-spacing: -2px;
 }
 
-.titulares{
-    font-family: 'Lexend Zetta', sans-serif;
-    letter-spacing: -2px;
-}
-
-p, .form-group, .parrafo-propositos{
-    font-family: 'Poppins', sans-serif;
-}
-
-.sobre-mi-bottom{
-    border-bottom: 3px solid #a5cd07;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    margin-left: 555px;
-    width: 120px;
+/*PARRAFOS SOBRE MÍ*/
+#sobre-mi-p{
+    padding-left: 6.4em;
+    padding-right: 6.4em;
     text-align: center;
 }
 
-
-.parrafo{
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
+/*barrita verde abajo
+#sobre-mi-p:last-of-type{
+    border-bottom: 5px solid #a5cd07;
 }
+*/
 
-.last-p{
-    margin-left: 37%;
-    margin-right: 20%;     
-}
 
-#silueta{
-   margin-left: 20%;
-    width: 40px;
-   
-    
+
+
+
+/*DIV 3 - FOTOS*/
+
+.img-fluid{
+    height: 100% !important;
+    object-fit: cover;
 }
 
 .row{
@@ -109,86 +87,6 @@ p, .form-group, .parrafo-propositos{
 .col-sm{
     margin-bottom: 10px;
 }
-
-#sobre-mi-p{
-    padding-left: 6.4em;
-    padding-right: 6.4em;
-    text-align: center;
-
-}
-.img-fluid{
-    object-fit: cover;
-}
-
-#conoceme {
-    margin-top: 90px;
-    border-left: 3px solid #a5cd07;;
-    padding-left: 37px;
-    text-transform: uppercase;
-    font-family: 'Abel', sans-serif;
-}
-#texto-principal{
-    font-size: 25px;
-    font-family: 'Abel', sans-serif;
-}
-#propositos{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #a5cd076b;
-    
-}
-#numeros{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-#numeros h1{
-    color: #a5cd07;
-    
-    font-size: 70px;
-    font-family: 'Alfa Slab One', cursive;
-    
-}
-#numeros p{
-    font-weight: bold;
-    font-size: 25px;
-   
-   
-}
-#numeros .col-sm{
-    text-align: center;
-}
-#formulario{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #3a3a3a;
-    color: white;
-}
-#formulario input, #formulario textarea {
-    display: block;
-    width: 100%;
-    background: #ff000000;
-    border: 0;
-    border-bottom: 0.1px solid white;
-}
-#formulario button{
-    background: #ff000000;
-    color: #a5cd07;
-    border: 1px solid #a5cd07;
-    font-size: 20px;
-    border-radius: 47px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-#contactame{
-    vertical-align: middle;
-    height: 40px;
-    margin-top: 30%;
-    border-top: 5px solid #a5cd07;
-    padding-top: 20px;
-    width: fit-content;  
-}
-
-
 
 .card {
     background-color: transparent;
@@ -225,10 +123,125 @@ p, .form-group, .parrafo-propositos{
     color:white;
     text-align: center;
     display: table;
-    width: 100%;
-    
+    width: 100%;   
 }
+
 .card-img-overlay h1{
     display: table-cell;
     vertical-align: middle;
 }
+
+
+
+
+
+
+
+
+
+
+
+.titulares{
+    font-family: 'Lexend Zetta', sans-serif;
+    letter-spacing: -2px;
+}
+
+p, .form-group, .parrafo-propositos{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.parrafo{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.last-p{
+    margin-left: 37%;
+    margin-right: 20%;     
+}
+
+#conoceme {
+    margin-top: 90px;
+    border-left: 3px solid #a5cd07;;
+    padding-left: 37px;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+}
+
+#texto-principal{
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+/*DIV 4 - PROPÓSITOS*/
+#propositos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #a5cd076b;
+}
+
+
+
+/*DIV 5 - FORTALEZAS*/
+#numeros{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#numeros h1{
+    color: #a5cd07;
+    font-size: 70px;
+    font-family: 'Alfa Slab One', cursive;  
+}
+
+#numeros p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#numeros .col-sm{
+    text-align: center;
+}
+
+
+/*DIV 6 - CONTACTO*/
+#formulario{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #3a3a3a;
+    color: white;
+}
+
+#formulario input, #formulario textarea {
+    display: block;
+    width: 100%;
+    background: #ff000000;
+    border: 0;
+    border-bottom: 0.1px solid white;
+}
+
+#formulario button{
+    background: #ff000000;
+    color: #a5cd07;
+    border: 1px solid #a5cd07;
+    font-size: 20px;
+    border-radius: 47px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contactame{
+    vertical-align: middle;
+    height: 40px;
+    margin-top: 30%;
+    border-top: 5px solid #a5cd07;
+    padding-top: 20px;
+    width: fit-content;  
+}
+
+
+
