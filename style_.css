@@ -1,138 +1,78 @@
-
-
-
+.navbar{
+    margin: 0 !important;
+   
+   
+}
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: inline !important;
+}
 header{
     height: 100vh;
 }
-
 #inicio{
-    background-image: url(img/FOTO\ BUENA\ ABOUT\ ME.jpg);
+    background-image: url(img/principal.png);
     background-repeat: no-repeat ;
     background-size: cover;
     height: 100% !important;
 }
-
-
 #logo-div{
-    padding-left: 15%; 
+    padding-left: 20%;
 }
 
 #frase{
-    padding-left: 15%;
+    padding-left: 20%;
     max-width: 65%;
 }
-
-#LOGO  {  
-    padding-top: 110px;
-    padding-bottom: 100px;
+#LOGO  {    
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 0px;
     width: 282px;
     height: auto;
     text-align: center;
 }
-
-
 .img-fluid{
     height: 100% !important;
 }
-
 #redes{
     position: fixed;
     right: 0;
     top: 50%;
-    right: 30px;  
+    right: 20px;
 }
-
-.logo-redes{
-    margin-bottom: 6px;
-}
-#imagenes img {
-    object-fit: cover;
-}
-
-.about-me{
-    height: 100vh;  
-}
-
 .sobre-mi{
     width: fit-content;
     border-bottom: 5px solid #a5cd07;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding-bottom: 10px;  
-    font-family: 'Lexend Zetta', sans-serif;
-    letter-spacing: -2px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
-
-.titulares{
-    font-family: 'Lexend Zetta', sans-serif;
-    letter-spacing: -2px;
-}
-
-p, .form-group, .parrafo-propositos{
-    font-family: 'Poppins', sans-serif;
-}
-
-.sobre-mi-bottom{
-    border-bottom: 3px solid #a5cd07;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    margin-left: 555px;
-    width: 120px;
-    text-align: center;
-}
-
-
-.parrafo{
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-}
-
-.last-p{
-    margin-left: 37%;
-    margin-right: 20%;     
-}
-
-#silueta{
-   margin-left: 20%;
-    width: 40px;
-   
-    
-}
-
 .row{
     margin-bottom: 10px;
 }
 .col-sm{
     margin-bottom: 10px;
 }
-
 #sobre-mi-p{
     padding-left: 6.4em;
     padding-right: 6.4em;
-    text-align: center;
-
 }
-
-
 #conoceme {
-    margin-top: 90px;
-    border-left: 3px solid #a5cd07;;
+    margin-top: 150px;
+    border-left: 3px solid green;
     padding-left: 37px;
     text-transform: uppercase;
-    font-family: 'Abel', sans-serif;
 }
 #texto-principal{
     font-size: 25px;
-    font-family: 'Abel', sans-serif;
 }
 #propositos{
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #a5cd076b;
-    
 }
 #numeros{
     padding-top: 40px;
@@ -140,16 +80,12 @@ p, .form-group, .parrafo-propositos{
 }
 #numeros h1{
     color: #a5cd07;
-    
-    font-size: 70px;
-    font-family: 'Alfa Slab One', cursive;
-    
+    font-weight: bold;
+    font-size: 80px;
 }
 #numeros p{
     font-weight: bold;
     font-size: 25px;
-   
-   
 }
 #numeros .col-sm{
     text-align: center;
@@ -180,13 +116,10 @@ p, .form-group, .parrafo-propositos{
     vertical-align: middle;
     height: 40px;
     margin-top: 30%;
-    border-top: 5px solid #a5cd07;
+    border-top: 1px solid;
     padding-top: 20px;
-    width: fit-content;  
+    width: fit-content;
 }
-
-
-
 .card {
     background-color: transparent;
     width: 100%;
@@ -223,7 +156,6 @@ p, .form-group, .parrafo-propositos{
     text-align: center;
     display: table;
     width: 100%;
-    
 }
 .card-img-overlay h1{
     display: table-cell;
