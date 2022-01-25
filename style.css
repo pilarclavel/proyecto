@@ -4,6 +4,23 @@ header{
 }
 
 /*1er DIV - LANDING*/
+#text-header{ 
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+ #text-header  div {
+        width: 75%;}
+#foto{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+#foto div {
+    width: 25%;
+}
+.foto{
+    background-image: url(img/Fotomovil.png);
+}
 #inicio{
     background-image: url(img/fotoprincipaldef.png);
     background-repeat: no-repeat ;
