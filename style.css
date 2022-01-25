@@ -5,12 +5,17 @@ header{
 
 /*1er DIV - LANDING*/
 #inicio{
-    background-image: url(img/FOTO\ BUENA\ ABOUT\ ME.jpg);
+    background-image: url(img/fotoprincipaldef.png);
     background-repeat: no-repeat ;
     background-size: cover;
+    background-attachment: fixed;
+ 
     height: 100% !important;
 }
-
+/*background-image: url("images/imagen_pequena.png");
+  background-attachment: fixed;
+  overflow: scroll;
+  */
 
 #logo-div{
     padding-left: 15%; 
@@ -119,11 +124,13 @@ header{
 
 .card-img-overlay {
     transform: rotateY(180deg);
-    background:#a5cd07;
-    color:white;
+    background:#000000;
+    color:#a5cd07;
     text-align: center;
     display: table;
     width: 100%;   
+    font-family: 'Lexend Zetta', sans-serif;
+    letter-spacing: -3px;
 }
 
 .card-img-overlay h1{
