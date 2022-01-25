@@ -12,12 +12,7 @@ header{
  
     height: 100% !important;
 }
-@media  all screen and (max-width: 600px;){
-    #inicio{
-        background-image: url(img/fotoprincipaldef.png);
-        background-size: cover;
-    }
-}
+
 #logo-div{
     padding-left: 15%; 
 }
