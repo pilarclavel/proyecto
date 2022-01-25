@@ -67,7 +67,7 @@ header{
     letter-spacing: -2px;
 }
 
-p, .parrafo-propositos{
+p, .form-group, .parrafo-propositos{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -181,6 +181,7 @@ p, .parrafo-propositos{
     padding-top: 20px;
     width: fit-content;  
 }
+
 
 
 .card {
