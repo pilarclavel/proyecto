@@ -8,15 +8,16 @@ header{
     background-image: url(img/fotoprincipaldef.png);
     background-repeat: no-repeat ;
     background-size: cover;
-    background-attachment: fixed;
+    
  
     height: 100% !important;
 }
-/*background-image: url("images/imagen_pequena.png");
-  background-attachment: fixed;
-  overflow: scroll;
-  */
-
+@media  all screen and (max-width: 600px;){
+    #inicio{
+        background-image: url(img/fotoprincipaldef.png);
+        background-size: cover;
+    }
+}
 #logo-div{
     padding-left: 15%; 
 }
