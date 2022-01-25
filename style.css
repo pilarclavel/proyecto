@@ -104,6 +104,7 @@ p, .form-group, .parrafo-propositos{
 
 .row{
     margin-bottom: 10px;
+    object-fit: cover;
 }
 .col-sm{
     margin-bottom: 10px;
@@ -115,7 +116,9 @@ p, .form-group, .parrafo-propositos{
     text-align: center;
 
 }
-
+.img-fluid{
+    object-fit: cover;
+}
 
 #conoceme {
     margin-top: 90px;
