@@ -13,7 +13,7 @@ width: 70%;}
 .inicioo{
     display: flex;
     background: #bebebe;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .image-header{
     width: 30%;
@@ -82,6 +82,7 @@ width: 70%;}
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    padding-top: 60px;
     padding-bottom: 10px;  
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -2px;
@@ -94,6 +95,13 @@ width: 70%;}
     text-align: center;
 }
 
+#sobre-mi-p-ult{
+    padding-bottom: 50px;
+    padding-left: 6.4em;
+    padding-right: 6.4em;
+    text-align: center;
+
+}
 /*barrita verde abajo
 #sobre-mi-p:last-of-type{
     border-bottom: 5px solid #a5cd07;
