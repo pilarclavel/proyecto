@@ -4,23 +4,36 @@ header{
 }
 
 /*1er DIV - LANDING*/
-#text-header{ 
+.text-header{ 
      display: flex;
     flex-direction: row;
-    flex-wrap: wrap;}
- #text-header  div {
-        width: 75%;}
-#foto{
-    
+    flex-wrap: wrap;
+width: 70%;}
+ 
+.inicioo{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;}
-#foto div {
-    width: 25%;
+    background: #bebebe;
+    padding-bottom: 50px;
 }
+.image-header{
+    width: 30%;
+    background-image: url(img/Fotomovil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+@media (max-width: 600px min-width:300px){
+    .foto {
+        width: 180px;
+        height: 370.85px;
+    }}
 .foto{
     background-image: url(img/Fotomovil.png);
-}
+    position: relative;
+    background-size: contain !important;
+  justify-content: center;
+    background-repeat: no-repeat;
+    display: flex;}
 #inicio{
     background-image: url(img/fotoprincipaldef.png);
     background-repeat: no-repeat ;
