@@ -209,6 +209,10 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
 
 .parrafo-propositos{
     text-align: left;
+    padding-left: 6.4em;
+    padding-right: 6.4em;
+    text-align: left;
+    width: 100%;
 }
 
 .parrafo{
@@ -239,7 +243,7 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
 
 /*DIV 4 - PROPÓSITOS*/
 #propositos{
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
     background-color: #a5cd076b;
 }
