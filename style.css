@@ -4,6 +4,7 @@ header{
 }
 
 /*1er DIV - LANDING*/
+<<<<<<< HEAD
 .text-header{ 
     display: flex;
     flex-direction: row;
@@ -35,17 +36,43 @@ header{
     display: flex;
     background: #bebebe;
     padding-bottom: 100px;
+=======
+.text-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 12px;
+    z-index: 2;
+>>>>>>> Adjust-header
 }
 
 .image-header{
-    width: 30%;
+    width: 70%;
     background-image: url(img/Fotomovil.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     margin-bottom: -100px;
-    
+    margin-left: -20%;
+
 }
+@media all and (min-width: 960px) {
+    .text-header{
+        width: 70%;
+        padding-left: 15%;
+    }
+    .image-header{
+        width: 30%;
+        background-image: url(img/Fotomovil.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-bottom: -100px;
+        margin-left: 0;
+    }
+}
+<<<<<<< HEAD
 #contacto-titular{
     font-size: 30px;
 }
@@ -73,6 +100,17 @@ header{
        background-size: contain;
     }
 }
+=======
+
+.inicioo{
+    display: flex;
+    background: #bebebe;
+    padding-bottom: 100px;
+
+
+}
+
+>>>>>>> Adjust-header
 @media (max-width: 600px min-width:300px){
     .foto {
         width: 180px;
@@ -93,11 +131,16 @@ header{
     background-image: url(img/fotoprincipaldef.png);
     background-repeat: no-repeat ;
     background-size: cover;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> Adjust-header
     height: 100% !important;
 }
 
 
-#LOGO  {  
+#LOGO  {
     padding-top: 110px;
     padding-bottom: 100px;
     padding-left: 0PX;
@@ -117,13 +160,13 @@ header{
     position: fixed;
     right: 0;
     top: 50%;
-    right: 30px;  
+    right: 30px;
     z-index: 999;
 }
 
 /*2o DIV - SOBRE MI*/
 .about-me{
-    height: 100vh;  
+    height: 100vh;
 }
 
 /*H1 SOBRE MÍ*/
@@ -138,7 +181,7 @@ header{
     margin-top: 60px;
     margin-bottom: 60px;
     padding-top: 60px;
-    padding-bottom: 10px;  
+    padding-bottom: 10px;
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -2px;
 }
@@ -213,7 +256,7 @@ header{
     color:#a5cd07;
     text-align: center;
     display: table;
-    width: 100%;   
+    width: 100%;
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -3px;
 }
@@ -239,7 +282,7 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
 
 .last-p{
     margin-left: 37%;
-    margin-right: 20%;     
+    margin-right: 20%;
 }
 
 #conoceme {
@@ -274,7 +317,7 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
 #numeros h1{
     color: #a5cd07;
     font-size: 70px;
-    font-family: 'Alfa Slab One', cursive;  
+    font-family: 'Alfa Slab One', cursive;
 }
 
 #numeros p{
@@ -293,6 +336,53 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -2px;
 }
+<<<<<<< HEAD
+=======
+ @media screen and(max-width:600px){
+     .col-4{
+         padding: inherit;
+     }   }
+ @media screen and (max-width:600px){
+    .col-8{
+        padding: inherit;
+    }}
+
+#formulario{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #3a3a3a;
+    color: white;
+}
+
+#formulario input, #formulario textarea {
+    display: block;
+    width: 100%;
+    background: #ff000000;
+    border: 0;
+    border-bottom: 0.1px solid white;
+}
+
+#formulario button{
+    background: #ff000000;
+    color: #a5cd07;
+    border: 1px solid #a5cd07;
+    font-size: 20px;
+    border-radius: 47px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contactame{
+    vertical-align: middle;
+    height: 40px;
+    margin-top: 30%;
+    border-top: 5px solid #a5cd07;
+    padding-top: 20px;
+    width: fit-content;
+}
+
+
+>>>>>>> Adjust-header
 
 @media screen and(max-width:600px){
     .col-4{
