@@ -265,7 +265,6 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
 #contacto-titular{
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -2px;
-
 }
  @media screen and(max-width:600px){
      .col-4{
