@@ -5,12 +5,32 @@ header{
 
 /*1er DIV - LANDING*/
 .text-header{ 
-     display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-width: 70%;
-padding-left: 15%;}
- 
+    width: 70%;
+    padding-left: 15%;
+}
+.silueta1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-left: 15%;
+}
+.silueta2{
+    width: 30%;
+    background-image: url(img/silueta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: -100px;
+    
+}
+.silueta{
+    display: flex;
+    padding-bottom: 100px;
+}
 .inicioo{
     display: flex;
     background: #bebebe;
@@ -26,11 +46,39 @@ padding-left: 15%;}
     margin-bottom: -100px;
     
 }
+#contacto-titular{
+    font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .image-header{
+        width: 60%;  
+    }
+    .text-header {
+        width: 40%;
+        padding-left: 5%;
+    }
+    #contacto-titular{
+        font-size: 19px;
+    }
+    .silueta1{
+        width: 100%;
+     }
+     .silueta2{
+         display: none !important;
+     }
+}
+
+@media only screen and (max-width: 1200px) {
+    .silueta2{
+       background-size: contain;
+    }
+}
 @media (max-width: 600px min-width:300px){
     .foto {
         width: 180px;
         height: 370.85px;
-    }}
+    }
+}
 
 .foto{
     background-image: url(img/Fotomovil.png);
@@ -94,19 +142,14 @@ padding-left: 15%;}
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -2px;
 }
-.silueta{
-    background-image: url(img/silueta.png);
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    height: 525px;
-}
+
 
 /*PARRAFOS SOBRE MÍ*/
 #sobre-mi-p{
     padding-left: 6.4em;
     padding-right: 6.4em;
     text-align: center;
+    width: 100%;
 }
 /*hola*/
 
@@ -115,7 +158,8 @@ padding-left: 15%;}
     padding-left: 6.4em;
     padding-right: 6.4em;
     text-align: center;
-
+    width: 100%;
+    
 }
 
 
@@ -250,49 +294,50 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
     letter-spacing: -2px;
 }
 
- @media screen and(max-width:600px){
-     .col-4{
-         padding: inherit;
-     }   }
-     
- @media screen and (max-width:600px){
-    .col-8{
+@media screen and(max-width:600px){
+    .col-4{
         padding: inherit;
-    }}
-   
-#formulario{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #3a3a3a;
-    color: white;
-}
-
-#formulario input, #formulario textarea {
-    display: block;
-    width: 100%;
-    background: #ff000000;
-    border: 0;
-    border-bottom: 0.1px solid white;
-}
-
-#formulario button{
-    background: #ff000000;
-    color: #a5cd07;
-    border: 1px solid #a5cd07;
-    font-size: 20px;
-    border-radius: 47px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#contactame{
-    vertical-align: middle;
-    height: 40px;
-    margin-top: 30%;
-    border-top: 5px solid #a5cd07;
-    padding-top: 20px;
-    width: fit-content;  
-}
-
-
-
+    }   }
+    
+    @media screen and (max-width:600px){
+        .col-8{
+            padding: inherit;
+        }}
+        
+        #formulario{
+            padding-top: 60px;
+            padding-bottom: 60px;
+            background-color: #3a3a3a;
+            color: white;
+        }
+        
+        #formulario input, #formulario textarea {
+            display: block;
+            width: 100%;
+            background: #ff000000;
+            border: 0;
+            border-bottom: 0.1px solid white;
+        }
+        
+        #formulario button{
+            background: #ff000000;
+            color: #a5cd07;
+            border: 1px solid #a5cd07;
+            font-size: 20px;
+            border-radius: 47px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        
+        #contactame{
+            vertical-align: middle;
+            height: 40px;
+            margin-top: 30%;
+            border-top: 5px solid #a5cd07;
+            padding-top: 20px;
+            width: fit-content;  
+        }
+        
+        
+        
+        
