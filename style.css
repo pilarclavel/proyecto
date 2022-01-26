@@ -15,9 +15,8 @@ padding-left: 15%;}
     display: flex;
     background: #bebebe;
     padding-bottom: 100px;
-  
-
 }
+
 .image-header{
     width: 30%;
     background-image: url(img/Fotomovil.png);
@@ -32,19 +31,20 @@ padding-left: 15%;}
         width: 180px;
         height: 370.85px;
     }}
+
 .foto{
     background-image: url(img/Fotomovil.png);
     position: relative;
     background-size: contain !important;
-  justify-content: center;
+    justify-content: center;
     background-repeat: no-repeat;
-    display: flex;}
+    display: flex;
+}
+
 #inicio{
     background-image: url(img/fotoprincipaldef.png);
     background-repeat: no-repeat ;
     background-size: cover;
-    
- 
     height: 100% !important;
 }
 
@@ -117,14 +117,6 @@ padding-left: 15%;}
     text-align: center;
 
 }
-/*barrita verde abajo
-#sobre-mi-p:last-of-type{
-    border-bottom: 5px solid #a5cd07;
-}
-*/
-
-
-
 
 
 /*DIV 3 - FOTOS*/
@@ -186,16 +178,6 @@ padding-left: 15%;}
     display: table-cell;
     vertical-align: middle;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -267,10 +249,12 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -2px;
 }
+
  @media screen and(max-width:600px){
      .col-4{
          padding: inherit;
      }   }
+     
  @media screen and (max-width:600px){
     .col-8{
         padding: inherit;
