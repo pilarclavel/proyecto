@@ -37,7 +37,9 @@ header{
         margin-bottom: -100px;
         margin-left: 0;
     }
+   
 }
+
 
 .inicioo{
     display: flex;
@@ -121,10 +123,10 @@ header{
 
 
 /*PARRAFOS SOBRE MÍ*/
-#sobre-mi-p{
+.sobre-mi-p{
     padding-left: 6.4em;
     padding-right: 6.4em;
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 /*hola*/
@@ -133,7 +135,7 @@ header{
     padding-bottom: 50px;
     padding-left: 6.4em;
     padding-right: 6.4em;
-    text-align: center;
+    text-align: left;
     width: 100%;
     
 }
@@ -205,7 +207,9 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
     font-family: 'Poppins', sans-serif;
 }
 
-
+.parrafo-propositos{
+    text-align: left;
+}
 
 .parrafo{
     margin-left: 20%;
@@ -268,8 +272,10 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
 #contacto-titular{
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -2px;
+    font-size: 22px;
 }
  @media screen and(max-width:600px){
+    
      .col-4{
          padding: inherit;
      }   }
@@ -360,4 +366,8 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
         
         
         
-        
+        @media only screen and (max-width: 600px) {
+            #contacto-titular{
+                font-size: 19px;
+            }
+          }
