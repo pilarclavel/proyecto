@@ -4,39 +4,6 @@ header{
 }
 
 /*1er DIV - LANDING*/
-<<<<<<< HEAD
-.text-header{ 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 70%;
-    padding-left: 15%;
-}
-.silueta1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 70%;
-    padding-left: 15%;
-}
-.silueta2{
-    width: 30%;
-    background-image: url(img/silueta.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-bottom: -100px;
-    
-}
-.silueta{
-    display: flex;
-    padding-bottom: 100px;
-}
-.inicioo{
-    display: flex;
-    background: #bebebe;
-    padding-bottom: 100px;
-=======
 .text-header{
     display: flex;
     flex-direction: row;
@@ -44,7 +11,6 @@ header{
     width: 50%;
     margin-left: 12px;
     z-index: 2;
->>>>>>> Adjust-header
 }
 
 .image-header{
@@ -72,35 +38,6 @@ header{
         margin-left: 0;
     }
 }
-<<<<<<< HEAD
-#contacto-titular{
-    font-size: 30px;
-}
-@media only screen and (max-width: 768px) {
-    .image-header{
-        width: 60%;  
-    }
-    .text-header {
-        width: 40%;
-        padding-left: 5%;
-    }
-    #contacto-titular{
-        font-size: 19px;
-    }
-    .silueta1{
-        width: 100%;
-     }
-     .silueta2{
-         display: none !important;
-     }
-}
-
-@media only screen and (max-width: 1200px) {
-    .silueta2{
-       background-size: contain;
-    }
-}
-=======
 
 .inicioo{
     display: flex;
@@ -110,7 +47,6 @@ header{
 
 }
 
->>>>>>> Adjust-header
 @media (max-width: 600px min-width:300px){
     .foto {
         width: 180px;
@@ -131,11 +67,8 @@ header{
     background-image: url(img/fotoprincipaldef.png);
     background-repeat: no-repeat ;
     background-size: cover;
-<<<<<<< HEAD
-=======
 
 
->>>>>>> Adjust-header
     height: 100% !important;
 }
 
@@ -336,8 +269,6 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: -2px;
 }
-<<<<<<< HEAD
-=======
  @media screen and(max-width:600px){
      .col-4{
          padding: inherit;
@@ -382,7 +313,6 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
 }
 
 
->>>>>>> Adjust-header
 
 @media screen and(max-width:600px){
     .col-4{
