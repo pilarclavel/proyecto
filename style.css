@@ -375,3 +375,12 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
                 font-size: 19px;
             }
           }
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+.img-final{
+    
+}
