@@ -380,7 +380,7 @@ p, .form-group, .parrafo-propositos,#contacto-parrafo{
     height: 50px;
     width: 100%;
     background-color: white;
-}
-.img-final{
-    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
